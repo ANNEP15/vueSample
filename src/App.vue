@@ -1,14 +1,27 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/user">User</router-link> |
-      <router-link to="/tableau">Tableau</router-link>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <router-link class="nav-link" to="/">Home</router-link>
+            </li>
+            <li class="nav-item active">
+              <router-link class="nav-link" to="/tableau">Tableau</router-link>
+            </li>
+          </ul>
+        </div>
+
+        <img src="./assets/logo.png" />
+      </nav>
+      <HelloWorld msg="Bienvenue sur le site d'Annette" />
     </div>
     <router-view />
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+      <a class="navbar-brand" href="#">Je suis le footer</a>
+    </nav>
   </div>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3.0 + Vite" />
 </template>
 
 <script>
