@@ -12,14 +12,17 @@
             </li>
           </ul>
         </div>
-
         <img src="./assets/logo.png" />
       </nav>
-      <HelloWorld msg="Bienvenue sur le site d'Annette" />
     </div>
     <router-view />
-    <nav class="navbar fixed-bottom navbar-light bg-light">
-      <a class="navbar-brand" href="#">Je suis le footer</a>
+    <nav navbar-expand-lg class="navbar fixed-bottom navbar-dark bg-dark">
+      <ul class="navbar-nav mr-auto text-center">
+        <li class="nav-item">
+           <HelloWorld msg="Bienvenue sur le site d'Annette" />
+        </li>
+      </ul>
+      <a class="navbar-brand" href="mailto:'john.smith@toto.com'"> Nous Contacter</a>
     </nav>
   </div>
 </template>
