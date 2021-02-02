@@ -13,7 +13,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="w-30" src="../assets/lion.png" />
+            <img class="w-19" src="../assets/FACE3.png" />
           </div>
           <div class="carousel-item">
             <img class="w-30" src="../assets/paysage.png" />
