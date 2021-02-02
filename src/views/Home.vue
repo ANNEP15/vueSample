@@ -19,7 +19,7 @@
             <img class="w-30" src="../assets/paysage.png" />
           </div>
           <div class="carousel-item">
-            <img class="w-30" src="../assets/venise.png" />
+            <img class="w-30" src="../assets/FACE3.png" />
           </div>
         </div>
         <a
