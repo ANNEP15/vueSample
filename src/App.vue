@@ -50,16 +50,21 @@
           ></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                  </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="w-20" src="../assets/FACE.jpg" />
+            <img class="w-15" src="../assets/FACE.jpg"/>
           </div>
           <div class="carousel-item">
-            <img class="w-30" src="../assets/paysage.png" />
+            <img class="w-30" src="../assets/paysage.png"/>
           </div>
           <div class="carousel-item">
-            <img class="w-30" src="../assets/venise.png" />
+            <img class="w-30" src="../assets/venise.png"/>
+          </div>
+          <div class="carousel-item">
+            <img class="w-20" src="../assets/COLOR2.jpg" />
           </div>
         </div>
         <a
@@ -119,17 +124,14 @@
         </li>
       </ul>
       <a class="navbar-brand" href="mailto:'plaisimont320@hotmail.com'"> Nous Contacter</a>
-    </nav>
-  </div>
-</template>
-
-<script>
+    </nav>  
+     </div>  
+     </template>
+  
+    <script>
 import HelloWorld from "./components/HelloWorld.vue";
 
 export default {
-  name: "App",
-  components: {
-    HelloWorld,
-  },
-};
-</script>
+ name: "App",  components: {HelloWorld
+  };
+  </script>
