@@ -1,7 +1,10 @@
+
+
+
 <template>
   <div class="container-fluid">
     <div class="text-center">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
         <ol class="carousel-indicators">
           <li
             data-target="#carouselExampleIndicators"
@@ -15,15 +18,16 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="w-19" src="../assets/FACE3.png"/>
+            <img class="w-15" src="../assets/CHEMIN4.jpg"/>
+          </div>
+
+          <div class="carousel-item">
+            <img class="w-5" src="../assets/CONVERGANCENEW1.jpg"/>
           </div>
           <div class="carousel-item">
-            <img class="w-30" src="../assets/paysage.png"/>
-          </div>
-          <div class="carousel-item">
-            <img class="w-20" src="../assets/tourbillon.png"/>
+            <img class="w-9" src="../assets/TOURBILLONNEW.jpg"/>
              <div class="carousel-item">
-            <img class="w-20" src="../assets/COLOR2.jpg"/>
+            <img class="w-10" src="../assets/FACENEW2.png"/>
           </div>
         </div>
         <a
