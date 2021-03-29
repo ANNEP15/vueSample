@@ -34,7 +34,7 @@
               Search
             </button>
           </form-->
-          <img src="./assets/logo.png" />
+          <img src="./assets/FACE.jpg" />
         </div>
       </nav>
     </div>
